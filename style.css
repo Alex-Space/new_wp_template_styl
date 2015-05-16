@@ -1,0 +1,155 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+/******** hack begin ********/
+div,
+span,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+textarea,
+button {
+  -webkit-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -moz--text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  max-height: 999999px;
+}
+input[type=text],
+input[type=password],
+input[type=submit],
+textarea {
+  -webkit-appearance: none !important;
+}
+/******** hack end ********/
+/******** main styles begin ********/
+.rel {
+  position: relative;
+}
+.clear {
+  clear: both;
+}
+.notvalid {
+  border: 1px solid #f00 !important;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.thanks-title {
+  font-size: 40px;
+  line-height: 65px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 185px;
+}
+input,
+button,
+textarea {
+  outline: none;
+}
+/******** main styles end ********/
